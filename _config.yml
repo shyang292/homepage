@@ -1,0 +1,57 @@
+# Welcome to Jekyll!
+
+# Website settings
+title: Allen Yang's Portfolio
+description: Allen Yang's Technical Portfolio
+keywords: blog, github, portfolio
+baseurl:  /homepage # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
+url: https://shyang292.github.io/homepage/ #http://jarrekk.github.io/Jalpc  # url should be changed to 'http://www.jack003.com/homepage' as before
+# url: http://127.0.0.1:4000
+img_path: /Jalpc/static/assets/img/blog  # url should be changed to '/homepage/static/assets/img/blog' as before
+
+# author -- index page "about me" section
+author:  # change following line to your infomation.
+  name: Allen Yang  # Be used at blog posts' author.
+  first_name: Allen  # Be used at index page about me section.
+  last_name: Yang  # Be used at index page about me section.
+  avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
+  github_username: shyang292  # Leave blank if you don't have now
+  linkedin_id: shyangcan      # Leave blank if you don't have now
+  email: shyangcan@gmail.com  # Leave blank if you don't have now
+  cv: https://drive.google.com/file/d/0B757Nn7VrIEIdTlfeFpDUzJydFk/view?usp=sharing  # A online CV can be printed as PDF, leave blank if you don't have now
+  skill_icon1:
+    - name: icon-java-bold
+    - name: icon-php
+  skill_icon2:
+    - name: icon-mysql
+    - name: icon-python
+  desc: I have 2 years experience in web development, my technical stack contains PHP, Java, Python, HTML5, CSS3, JavaScript, jQuery, BootStrap, AngularJS, Spring, Hibernate, SpringMVC.
+
+
+# comment
+disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
+#  name: jalpc
+#  public_key: tj2MPaNlHMONwTH5bGDNSXyaBpW7q282MeUzh5CwcjJerNhK8Kxk3aWo7IckzTX7
+
+# analytics
+## google analytics
+ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
+  # id:
+
+## growingIO
+gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
+  # id:
+
+## donation
+donation: on  # type 'on'/'off' to choice display donation button at post page or not
+
+
+# Build settings
+encoding: utf-8
+
+# other settings
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
